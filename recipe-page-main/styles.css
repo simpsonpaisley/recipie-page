@@ -128,3 +128,45 @@ td {
 	font-weight: 700;
 	color: #854632;
 }
+
+@media (min-width: 640px) {
+	body {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #f3e5d7;
+	}
+
+	article {
+		width: 616px;
+		background-color: #ffffff;
+		padding: 40px;
+		margin-top: 128px;
+		margin-bottom: 128px;
+		border-radius: 24px;
+	}
+
+	img {
+		height: 300px;
+		width: 536px;
+		align-self: center;
+		border-radius: 12px;
+		object-fit: cover;
+	}
+}
+
+@media (min-width: 1024px) {
+	body {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #f3e5d7;
+	}
+
+	article {
+		width: 736px;
+	}
+    
+    img{
+        width: 656px;
+    }
