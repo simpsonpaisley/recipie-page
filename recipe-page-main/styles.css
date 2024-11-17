@@ -20,7 +20,7 @@ body {
 	margin: 0;
 }
 
-article {
+main {
 	display: flex;
 	flex-direction: column;
 }
@@ -136,7 +136,7 @@ td {
 		background-color: #f3e5d7;
 	}
 
-	article {
+	main {
 		width: 616px;
 		background-color: #ffffff;
 		padding: 40px;
@@ -162,7 +162,7 @@ td {
 		background-color: #f3e5d7;
 	}
 
-	article {
+	main {
 		width: 736px;
 	}
 
